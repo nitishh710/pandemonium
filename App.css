@@ -1,0 +1,19 @@
+body { background-color: #0d1117; color: #c9d1d9; font-family: monospace; }
+.arena-container {
+  width: 800px; height: 600px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.agent-node {
+  position: absolute;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.05s linear;
+}
+.role-Trader { background-color: #58a6ff; }
+.role-Predator { background-color: #f85149; }
+.role-Scavenger { background-color: #3fb950; }
